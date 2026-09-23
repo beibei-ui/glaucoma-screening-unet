@@ -1,0 +1,23 @@
+# Large model weights
+*.pth
+*.pt
+*.h5
+
+# Full datasets (too large for GitHub)
+data/
+archive/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
