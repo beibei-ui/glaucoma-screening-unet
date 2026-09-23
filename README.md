@@ -66,6 +66,16 @@ The Optic Cup occupies a tiny fraction of the image, so its loss weight is ampli
 
 ---
 
+## Results Visualization
+
+| Fundus Image & Segmentation Mask | Model Performance Comparison |
+|---|---|
+| ![Fundus](results/fundus_image_and_mask.png) | ![Model Compare](results/model_performance_compare.png) |
+
+![Threshold Tuning](results/threshold_tuning.png)
+
+---
+
 ## Clinical Results
 
 **Optimal CDR Threshold: > 0.3414**
@@ -97,15 +107,21 @@ Sample images from each dataset are in [`samples/`](samples/).
 
 ```
 glaucoma-screening-unet/
+├── Comprehensive_Glaucoma.ipynb   # Full pipeline: training, evaluation, CDR classification
 ├── models/
-│   └── refuge_clf.pkl          # Trained glaucoma classifier (CDR threshold)
-│   └── refuge_segmentation.pth # U-Net segmentation weights (1 GB — not tracked by git)
+│   └── refuge_clf.pkl             # Trained glaucoma classifier (CDR threshold)
+│   └── refuge_segmentation.pth   # U-Net segmentation weights (1 GB — not tracked by git)
+├── results/
+│   ├── fundus_image_and_mask.png  # Segmentation visualization
+│   ├── model_performance_compare.png
+│   └── threshold_tuning.png
 ├── samples/
-│   ├── REFUGE/                 # Sample fundus images
+│   ├── REFUGE/                    # Sample fundus images
 │   ├── ORIGA/
 │   └── G1020/
 └── docs/
-    └── presentation.pdf        # Final project presentation slides
+    ├── report.pdf                 # Full project report
+    └── presentation.pdf           # Project presentation slides
 ```
 
 ---
