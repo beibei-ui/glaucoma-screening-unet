@@ -3,7 +3,7 @@
 > A comparative analysis of U-Net architectures and optimization strategies for robust clinical application.  
 > **CS 5100 – Foundations of AI · Northeastern University · Fall 2025**
 
-**Team:** Jiahua (Liz) Wu · [Teammate 2] · [Teammate 3]
+**Team:** Jiahua (Liz) Wu · Sam Wu · Lucy
 
 ---
 
